@@ -77,7 +77,7 @@ Brief description of each step in the 9-step predict process:
 ### 1) Fork the Provided Template Repository <a id='1_section_id'></a>
 ---
 
-We have already set up a repository with all the requisite files and instructions that you need to successfully complete this predict. The template repo that you need to fork can be found [here](). If you have any trouble forking a repo, you might find [this link](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository) helpful.
+We have already set up a repository with all the requisite files and instructions that you need to successfully complete this predict. The template repo that you need to fork can be found [here](https://github.com/Explore-AI/cloud-computing-predict). If you have any trouble forking a repo, you might find [this link](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository) helpful.
 
 ---
 ### 2) Modify the Portfolio Webpage Template <a id='2_section_id'></a>
@@ -310,7 +310,7 @@ You are now at a point in the predict where you can start building the actual la
 
 | :triangular_flag_on_post: PREDICT TASK :triangular_flag_on_post:                                                                                      |
 | :--------------------                                                                                   |
-| Set up the lambda function to write the website POST data to DynamoDB. To get the functionality displayed in figure 7, you will need to use Python to tell your AWS Lambda function what to do and how to do it. Luckily we have some stater code for you. You can use the code found [here](https://github.com/Vincent-EDSA/cloud-computing-predict/blob/main/Student_Solution_Python_Files/Basic_Lambda_Data_Decoding.py) to read and decode the incoming data from the website. Then, using the boilerplate code found [here](https://github.com/Vincent-EDSA/cloud-computing-predict/blob/main/Student_Solution_Python_Files/Write_Data_to_DynamoDB.py) as starting point, you can enable your lambda function to write to DynamoDB.| 
+| Set up the lambda function to write the website POST data to DynamoDB. To get the functionality displayed in figure 7, you will need to use Python to tell your AWS Lambda function what to do and how to do it. Luckily we have some stater code for you. You can use the code found [here](https://github.com/Explore-AI/cloud-computing-predict/blob/main/Student_Solution_Python_Files/Basic_Lambda_Data_Decoding.py) to read and decode the incoming data from the website. Then, using the boilerplate code found [here](https://github.com/Explore-AI/cloud-computing-predict/blob/main/Student_Solution_Python_Files/Write_Data_to_DynamoDB.py) as starting point, you can enable your lambda function to write to DynamoDB.| 
 
 ---
 ### 8) AWS Lambda Function for Sending an Email with AWS SES <a id='8_section_id'></a>
@@ -343,7 +343,7 @@ When your account is promoted out of the sandbox, you can send emails to any rec
 
 | :triangular_flag_on_post: PREDICT TASK :triangular_flag_on_post:                                                                                      |
 | :--------------------                                                                                   |
-| At this point we want you to once again show us your great cloud computing and python skills. You are tasked with 1) verifying a sender and recipient emial address and 2) sending a sample email to your recipient address from your sender address, using AWS SES. Part 1 is entierly left up to you to complete however with part 2, we will provide some basic guidance. Modifying [this](https://github.com/Vincent-EDSA/cloud-computing-predict/blob/main/Student_Solution_Python_Files/Send_Emails_with_SES.py) piece of code and adding it to your lambdas function might help you to accomplish your end goal.| 
+| At this point we want you to once again show us your great cloud computing and python skills. You are tasked with 1) verifying a sender and recipient emial address and 2) sending a sample email to your recipient address from your sender address, using AWS SES. Part 1 is entierly left up to you to complete however with part 2, we will provide some basic guidance. Modifying [this](https://github.com/Explore-AI/cloud-computing-predict/blob/main/Student_Solution_Python_Files/Send_Emails_with_SES.py) piece of code and adding it to your lambdas function might help you to accomplish your end goal.| 
 
 ---
 ### 9) AWS Lambda Function for Using Amazon Comprehend <a id='9_section_id'></a>
@@ -437,7 +437,7 @@ The email_response method works as follow:
 
 | :triangular_flag_on_post: PREDICT TASK :triangular_flag_on_post:                                                                                      |
 | :--------------------                                                                                   |
-| You are tasked with using the provided methods and the boilerplate AWS Comprehend/ AWS Lambda code found [here](https://github.com/Vincent-EDSA/cloud-computing-predict/blob/main/Student_Solution_Python_Files/Aggregated_Lambda_Function.py) to build out the full functionality.| 
+| You are tasked with using the provided methods and the boilerplate AWS Comprehend/ AWS Lambda code found [here](https://github.com/Explore-AI/cloud-computing-predict/blob/main/Student_Solution_Python_Files/Aggregated_Lambda_Function.py) to build out the full functionality.| 
       
 
 # End-to-end Example
@@ -462,7 +462,7 @@ Let's say you someone visiting your deployed webpage posts the following sample 
 > 
 > Senior HR Manager, Real Analytics Resources
 
-Running this message through our AWS Comprehend service produces [these](https://github.com/Vincent-EDSA/cloud-computing-predict/blob/main/Model_Solution_Python_Files/Example_AWS_Comprehend_Key_Phrases_Output.txt) key phrases and [this](https://github.com/Vincent-EDSA/cloud-computing-predict/blob/main/Model_Solution_Python_Files/Example_AWS_Comprehend_Sentiment_Output.txt) sentiment classification output.
+Running this message through our AWS Comprehend service produces [these](https://github.com/Explore-AI/cloud-computing-predict/blob/main/Student_Solution_Python_Files/Example_AWS_Comprehend_Key_Phrases_Output.txtt) key phrases and [this](https://github.com/Explore-AI/cloud-computing-predict/blob/main/Student_Solution_Python_Files/Example_AWS_Comprehend_Sentiment_Output.txt) sentiment classification output.
 
 From this output it can be seen that AWS Comprehend picked up that the message has a positive sentiment, and that it contains key phrases such as: 'your portfolio projects', 'your GitHub page', 'Your medium articles', 'a potential job', etc. We can therefore set up some logic along with our helper functions to build out our responses.
 
@@ -525,7 +525,7 @@ Remember that in the example additional keywords were present such as: `CV`, `pr
    
 | :information_source: NOTE :information_source:                                                                                                         |
 | :--------------------                                                                                                                                  |
-| The boilerplate lambda function for the full solution can be found [here](https://github.com/Vincent-EDSA/cloud-computing-predict/blob/main/Student_Solution_Python_Files/Aggregated_Lambda_Function.py) |
+| The boilerplate lambda function for the full solution can be found [here](https://github.com/Explore-AI/cloud-computing-predict/blob/main/Student_Solution_Python_Files/Aggregated_Lambda_Function.py) |
 
 
 ## Conclusion
