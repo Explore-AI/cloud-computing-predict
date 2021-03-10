@@ -570,8 +570,8 @@ Remember that in the example additional keywords were present such as: `CV`, `pr
 
 Once completed, your predict solution will be marked at a time indicated within the Predict Overview Slides and as communicated on Athena. To facilitate this assessment, please submit the following details via the Predict Submission tab on Athena using [this](student_solution_files/predict_detail_submission_template.csv) simple template: 
  - Your **Name and Surname**; 
- - The **Website URL** of your deployed project as recorded in step 3 of this guide, and 
- - Your **AWS API Gateway URL** as recorded in part 3 of step 6. 
+ - The **Website URL** of your deployed project as recorded in [Step 3](#3_section_id) of this guide, and 
+ - Your **AWS API Gateway URL** as recorded in part 3 of [Step 6](#6_section_id). 
 
 Please also ensure that you have verified the `edsa.predicts@explore-ai.net` email address via AWS SES as instructed in step 8, part 1. 
 
