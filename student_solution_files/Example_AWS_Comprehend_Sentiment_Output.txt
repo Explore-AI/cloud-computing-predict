@@ -1,0 +1,12 @@
+{'Sentiment': 'POSITIVE',
+ 'SentimentScore': {'Positive': 0.9608212113380432,
+  'Negative': 5.171292650629766e-05,
+  'Neutral': 0.039048053324222565,
+  'Mixed': 7.912805449450389e-05},
+ 'ResponseMetadata': {'RequestId': 'a34c897f-d364-4b51-8c04-89f409cfd1a0',
+  'HTTPStatusCode': 200,
+  'HTTPHeaders': {'x-amzn-requestid': 'a34c897f-d364-4b51-8c04-89f409cfd1a0',
+   'content-type': 'application/x-amz-json-1.1',
+   'content-length': '165',
+   'date': 'Wed, 24 Feb 2021 11:43:45 GMT'},
+  'RetryAttempts': 0}}
