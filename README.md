@@ -322,7 +322,7 @@ You are now at a point in the predict where you can start building the actual la
 
 | :triangular_flag_on_post: PREDICT TASK :triangular_flag_on_post:                                                                                      |
 | :--------------------                                                                                   |
-| **Set up the lambda function to write the website POST data to DynamoDB**. To get the functionality displayed in figure 7, you will need to use Python to tell your AWS Lambda function what to do and how to do it. Luckily we have some stater code for you. You can use the code found [here](https://github.com/Vincent-EDSA/cloud-computing-predict/blob/main/student_solution_files/basic_lambda_data_decoding.py) to read and decode the incoming data from the website. Then, using the boilerplate code found [here](https://github.com/Vincent-EDSA/cloud-computing-predict/blob/main/student_solution_files/write_data_to_dynamodb.py) as starting point, you can enable your lambda function to write to DynamoDB.| 
+| **Set up the lambda function to write the website POST data to DynamoDB**. To get the functionality displayed in figure 7, you will need to use Python to tell your AWS Lambda function what to do and how to do it. Luckily we have some stater code for you. You can use the code found [here](student_solution_files/basic_lambda_data_decoding.py) to read and decode the incoming data from the website. Then, using the boilerplate code found [here](student_solution_files/write_data_to_dynamodb.py) as starting point, you can enable your lambda function to write to DynamoDB.| 
 
 ---
 ### 8) AWS Lambda Function for Sending an Email with AWS SES <a id='8_section_id'></a>
@@ -363,7 +363,7 @@ Having registered the necessary email addresses, you are now ready to invoke AWS
 
 | :triangular_flag_on_post: PREDICT TASK :triangular_flag_on_post:                                                                                      |
 | :--------------------                                                                                   |
-| At this point we want you to once again show us your great cloud computing and python skills. The **second task involves sending a sample email to your recipient address from your sender address, using AWS SES**. Here we provide some basic guidance in the form of [this](https://github.com/Vincent-EDSA/cloud-computing-predict/blob/main/student_solution_files/send_emails_with_ses.py) this template, which your are required to complete and to add to your lambda function in order to help you accomplish your end goal.| 
+| At this point we want you to once again show us your great cloud computing and python skills. The **second task involves sending a sample email to your recipient address from your sender address, using AWS SES**. Here we provide some basic guidance in the form of [this](student_solution_files/send_emails_with_ses.py) this template, which your are required to complete and to add to your lambda function in order to help you accomplish your end goal.| 
 
 ---
 ### 9) AWS Lambda Function for Using Amazon Comprehend <a id='9_section_id'></a>
@@ -457,7 +457,7 @@ The email_response method works as follow:
 
 | :triangular_flag_on_post: PREDICT TASK :triangular_flag_on_post:                                                                                      |
 | :--------------------                                                                                   |
-| The final task of the predict requires you to use the provided functions and the boilerplate AWS Comprehend/AWS Lambda code found [here](https://github.com/Vincent-EDSA/cloud-computing-predict/blob/main/student_solution_files/aggregated_lambda_function.py) to build out the full functionality of the automated predict pipeline.| 
+| The final task of the predict requires you to use the provided functions and the boilerplate AWS Comprehend/AWS Lambda code found [here](student_solution_files/aggregated_lambda_function.py) to build out the full functionality of the automated predict pipeline.| 
       
 
 # End-to-end Example
