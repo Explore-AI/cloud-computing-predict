@@ -586,3 +586,7 @@ Following the conclusion of this predict and its assessment, you are free (and w
    - Set up more logic that will cater for a wider array of email responses. 
    - Use a different [Bootstrap](https://getbootstrap.com/) template and see if you can reproduce the results of the project.
    - Integrate more AWS services. For example, see if you can integrate AWS QuickSight to visualize the data in your AWS DynamoDB NoSQL database. Alternatively, you could try to use the [AWS Lex](https://aws.amazon.com/lex/) service to place a chatbot on your profile page, adding another layer of intelligent interaction to engage potential clients.
+
+<p align="center">
+  <img src="assets/img/digital_skills_logo.png" width=800px/>
+</p>
