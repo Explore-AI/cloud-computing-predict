@@ -21,8 +21,7 @@
 
 """
 
-def email_response(name, email_address, critical_phrase_list, sentiment_list, 
-                   sentiment_scores, list_of_extracted_phrases, 
+def email_response(name, email_address, critical_phrase_list, list_of_extracted_phrases, 
                    AWS_Comprehend_Sentiment_Dump):
 
     # Function Constants
