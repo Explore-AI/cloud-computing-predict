@@ -21,8 +21,7 @@
 
 """
 
-def email_response(name, email_address, critical_phrase_list, list_of_extracted_phrases, 
-                   AWS_Comprehend_Sentiment_Dump):
+def email_response(name, email_address, critical_phrase_list, list_of_extracted_phrases, AWS_Comprehend_Sentiment_Dump):
 
     # Function Constants
     SENDER_NAME = 'Place your name here'
