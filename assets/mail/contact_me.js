@@ -26,7 +26,7 @@ $(function () {
                 // --- CHANGE THIS LINE TO YOUR OWN API GATEWAY  -------- 
                 url: "{https://98005irfla.execute-api.eu-west-1.amazonaws.com/rootfunction}",
                 // ------------------------------------------------------  
-                type: "POST",
+                type: "GET",
                 data: JSON.stringify(json),
                 cache: false,
                 success: function () {
