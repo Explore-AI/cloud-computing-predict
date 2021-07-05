@@ -26,7 +26,7 @@ $(function () {
                 // --- CHANGE THIS LINE TO YOUR OWN API GATEWAY  -------- 
                 url: "{https://0pwem1zq9j.execute-api.eu-west-1.amazonaws.com/rootstage/rootfunction}",
                 // ------------------------------------------------------  
-                type: "POST",
+                type: "GET",
                 data: JSON.stringify(json),
                 cache: false,
                 success: function () {
