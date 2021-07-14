@@ -18,7 +18,7 @@ import boto3  # Python AWS SDK
 import json  # Used for handling API-based data.
 import base64  # Needed to decode the incoming POST data
 import numpy as np  # Array manipulation
-
+import random
 rid = random
 from botocore.exceptions import ClientError  # Catch errors on client side
 
@@ -297,7 +297,7 @@ def lambda_handler(event, context):
     CHARSET = "UTF-8"
 
     # Create a new SES service resource
-    client = boto3.client('ses', region_name=AWS_REGION)
+    client = boto3.client('ses', region_name='eu-west-1')
 
     # Do not change the name of this variable
     # ses_response = None
