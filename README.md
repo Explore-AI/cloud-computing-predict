@@ -419,7 +419,7 @@ This function extracts and returns the highest probable sentiment from a given m
   - Outputs:
     - overall_sentiment: A string representing the most probable sentiment within the message. 
     - sentiment_score: The value of the highest probable sentiment present in the message.
-  - The function implementation can be found [here](Student_Solution_Python_files/find_maximum_sentiment.py)
+  - The function implementation can be found [here](student_solution_files/find_maximum_sentiment.py)
    
 **Function 2 - `key_phrase_finder(list_of_important_phrases, list_of_extracted_phrases):`**
 
@@ -430,7 +430,7 @@ This function attempts to find a match between the words in a key phrases dictio
   - Outputs: 
     - listing: An empty list to append the individual words present in the AWS Comprehend key phrases dictionary.
     - phrase_checker: A boolean variable representing the whether a match is discovered between the function's input lists.
-  - The function implementation can be found [here](Student_Solution_Python_files/find_key_phrases.py)
+  - The function implementation can be found [here](student_solution_files/find_key_phrases.py)
             
 **Function 3 - `email_response(name, email_address, critical_phrase_list, sentiment_list, sentiment_scores, list_of_extracted_phrases, AWS_Comprehend_Sentiment_Dump):`**
     
@@ -446,7 +446,7 @@ This function takes in the parsed information from the sender i.e. `name`, `emai
     - AWS_Comprehend_Sentiment_Dump: The sentiment summary dictionary as populated by AWS Comprehend.
   - Outputs: 
     - Text: The intelligently populated email response based on the contents of the sender's message.
-  - - The function implementation can be found [here](Student_Solution_Python_files/email_responses.py)
+  - - The function implementation can be found [here](student_solution_files/email_responses.py)
 
 The email_response method works as follow:
 
