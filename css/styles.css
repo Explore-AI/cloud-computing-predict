@@ -10128,7 +10128,7 @@ h3 {
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
-    padding-bottom: 6rem;
+    padding-bottom: 1rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
@@ -10237,4 +10237,9 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a252f;
+}
+.rounded-circle-test{
+  border-radius: 50% !important;
+  padding-bottom: 25px;
+  margin-top: -65px;
 }
