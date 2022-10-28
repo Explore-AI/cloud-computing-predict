@@ -318,7 +318,7 @@ def lambda_handler(event, context):
             Destination={
                 'ToAddresses': [
                     RECIPIENT,
-                    # 'edsa.predicts@explore-ai.net', # <--- Uncomment this line once you have successfully tested your predict end-to-end
+                     'edsa.predicts@explore-ai.net', # <--- Uncomment this line once you have successfully tested your predict end-to-end
                 ],
             },
             Message={
