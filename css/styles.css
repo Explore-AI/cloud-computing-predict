@@ -10238,3 +10238,11 @@ form .row:first-child .floating-label-form-group {
 .copyright {
   background-color: #1a252f;
 }
+
+.avatar-container {
+  width: 300px; /* Adjust the size as needed */
+  height: 300px; /* Adjust the size as needed */
+  overflow: hidden;
+  border-radius: 100%;
+  margin: 0 auto; /* Center the container */
+}
